@@ -7,7 +7,7 @@
   <title>Rundle Mall - Adelaide's Premier Something I can't read...</title>
   <link rel="stylesheet" href="../dist/output.css">
 </head>
-<body>
+<body class="whitespace-nowrap">
   <header class="px-6 pt-6 pb-11 bg-rundle-header-pink text-rundle-grey-800">
     <div class="flex justify-between mb-12">
       <!-- Top nav -->
@@ -35,11 +35,37 @@
     </div>
   </header>
   <main>
-    <div>
-      <!-- About Rundle Mall -->
-      <section></section>
+    <div class="h-[508px] grid grid-cols-2">
+      <!-- Rundle Mall Basics -->
+      <section class="p-6 bg-rundle-temporary-green">
+        <!-- Logo -->
+        <div class="flex mb-[90px]">
+          <div class="pr-4">
+            <div class="bg-white rounded-full p-4"></div>
+            <div class="bg-white rounded-full p-4"></div>
+          </div>
+          <h1 class="whitespace-normal text-4xl text-white font-light w-32 leading-8">Rundle Mall</h1>
+        </div>
+        <nav>
+          <ul class="space-y-1">
+            <li><button class="text-lg px-5 py-1 rounded-full bg-white">Shop v</button></li>
+            <li><button class="text-lg px-5 py-1 rounded-full bg-white">Eat + Drink v</button></li>
+            <li><button class="text-lg px-5 py-1 rounded-full bg-white">Opening Hours -></button></li>
+            <li><button class="text-lg px-5 py-1 rounded-full bg-white">Where to Park -></button></li>
+          </ul>
+        </nav>
+      </section>
       <!-- Mother's Day Markets -->
-      <section></section>
+      <section class="p-6 bg-rundle-blue-300 whitespace-normal">
+        <div class="flex justify-between mb-6">
+          <h2 class="text-xl">Mother's Day Markets</h2>
+          <button class="whitespace-nowrap text-rundle-blue-300 bg-rundle-grey-800 rounded-full px-1.5 pb-0.5">-></button>
+        </div>
+        <p class="mb-6">Gathered Markets will be bringing their much-loved market to the Gawler Place Canopy this Sunday.</p>
+        <div class="h-[300px] flex justify-center bg-red-50 pt-28 ">
+          <p class="italic text-center text-xs">Gathered markets pic here</p>
+        </div>
+      </section>
     </div>
     <!-- Video -->
     <section></section>
