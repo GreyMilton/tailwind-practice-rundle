@@ -6,8 +6,11 @@ module.exports = {
       colors: {
         'rundle-header-pink': '#ebcbc3',
         'rundle-body-pink': '#ffc4c9',
+        'rundle-body-pale-pink': '#fcd4cf',
         'rundle-body-tan': '#e9dec7',
         'rundle-body-green': '#828c26',
+        'rundle-body-mint': '#b5ddbe',
+        'rundle-body-blue': '#bbe3e2',
         'rundle-body-brown': '#b69c7d',
         'rundle-grey-50': '#ebe9e6',
         'rundle-grey-800': '#4b4946',
