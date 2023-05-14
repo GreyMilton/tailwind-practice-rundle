@@ -167,17 +167,53 @@
         </div>
       </section>
     </div>
-    <div>
+    <div class="grid grid-cols-3 grid-rows-[repeat(7,_minmax(0,_1fr))] whitespace-normal">
       <!-- About Rundle Mall -->
-      <section></section>
+      <section class="h-full flex flex-col justify-between col-span-1 row-[span_7_/_span_7] bg-rundle-body-pink text-rundle-grey-900 p-6">
+        <div class="flex justify-between">
+          <h2 class="text-xl">About Rundle Mall</h2>
+          <button class="whitespace-nowrap px-1.5 h-8 w-8 bg-rundle-grey-900 text-rundle-body-pink rounded-full">-></button>
+        </div>
+        <div>
+          <p>With global brands and local favourites, Rundle Mall is the heart of shopping, dining and entertainment in Adelaide.</p>
+          <div class="w-full mt-6 mb-20 pt-[28%] pb-[28%] bg-white">
+            <p class="italic text-center text-xs">Mall pic drinks in foreground here</p>
+          </div>
+        </div>
+      </section>
       <!-- Let's Keep in Touch -->
-      <section></section>
-      <div>
+      <section class="h-full flex flex-col justify-between col-span-1 row-[span_7_/_span_7] bg-rundle-body-green text-rundle-grey-900 p-6">
+        <h2 class="text-xl">Let's Keep in Touch</h2>
+        <div class="mb-12">
+          <p>We're always changing and always exciting. Be the first to hear what's new in Rundle Mall.</p>
+          <form class="flex flex-col text-sm gap-y-9 items-start mt-11">
+            <input class="mt-4 w-full bg-rundle-body-green border-b border-rundle-grey-900 pb-2 placeholder-rundle-grey-900" type="text" name="full-name" placeholder="Full Name">
+            <input class="mt-4 w-full bg-rundle-body-green border-b border-rundle-grey-900 pb-2 placeholder-rundle-grey-900" type="text" name="postcode" placeholder="Postcode">
+            <input class="mt-4 w-full bg-rundle-body-green border-b border-rundle-grey-900 pb-2 placeholder-rundle-grey-900" type="text" name="email" placeholder="Email">
+            <button class="text-lg whitespace-nowrap px-4 pb-2 h-8 border border-rundle-grey-900 rounded-full">Subscribe now -></button>
+
+          </form>
+        </div>
+      </section>
         <!-- Logo -->
-        <section></section>
+        <div class="ol-span-1 row-span-4 bg-rundle-blue-300 pt-[37%] pb-[37%]">
+          <p class="italic text-center text-xs">Sculpture logo here</p>
+        </div>
         <!-- Connect With Us -->
-        <section></section>
-      </div>
+        <section class="flex flex-col justify-between items-start col-span-1 row-span-3 bg-yellow-50 text-rundle-body-green p-6">
+          <h2 class="text-xl">Connect With Us</h2>
+          <ul class="space-y-2">
+            <li>
+              <a class="text-lg px-3 block border rounded-full border-rundle-grey-900 w-52">Instagram</a>
+            </li>
+            <li>
+              <a class="text-lg px-3 block border rounded-full border-rundle-grey-900 w-52">Facebook</a>
+            </li>
+            <li>
+              <a class="text-lg px-3 block border rounded-full border-rundle-grey-900 w-52">Youtube</a>
+            </li>
+          </ul>
+        </section>
     </div>
   </main>
   <footer>
